@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14397" started-at="2020-09-12T16:41:59Z" finished-at="2020-09-12T16:42:14Z">
+    <groups>
+      <group name="TestA">
+        <method signature="TestSchedulingByCase.test1(com.dmall.autotest.component.scheduling.SchedulingRequest, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@6d78f375]" name="test1" class="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+        <method signature="TestSchedulingByCase.test2(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@6d78f375]" name="test2" class="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+        <method signature="TestSchedulingByCase.test2(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@29ee9faa]" name="test2" class="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+        <method signature="TestSchedulingByCase.test1(com.dmall.autotest.component.scheduling.SchedulingRequest, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@4b9e13df]" name="test1" class="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+        <method signature="TestSchedulingByCase.test2(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@4b9e13df]" name="test2" class="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+      </group> <!-- TestA -->
+      <group name="TestB">
+        <method signature="TestSchedulingByCase.test2(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@6d78f375]" name="test2" class="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+        <method signature="TestSchedulingByCase.test2(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@29ee9faa]" name="test2" class="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+        <method signature="TestSchedulingByCase.test3(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@29ee9faa]" name="test3" class="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+        <method signature="TestSchedulingByCase.test2(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@4b9e13df]" name="test2" class="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+        <method signature="TestSchedulingByCase.test3(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@4b9e13df]" name="test3" class="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+      </group> <!-- TestB -->
+    </groups>
+    <test name="TestPlan1" duration-ms="3574" started-at="2020-09-12T16:41:59Z" finished-at="2020-09-12T16:42:03Z">
+      <class name="com.dmall.autotest.testscene.TestSchedulingByCase">
+        <test-method status="PASS" signature="test1(com.dmall.autotest.component.scheduling.SchedulingRequest, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@6d78f375]" name="test1" duration-ms="1382" started-at="2020-09-13T00:42:02Z" data-provider="caseData" finished-at="2020-09-13T00:42:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.dmall.autotest.component.scheduling.SchedulingRequest@4a87761d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Cookie=test_token_: SEg6bW0jIzE3Mi4yOC4yNDAuMTE2IyNISDptbSMjNGRmZTQjIzlFNTQ3MjMzRjQ4OUMxQjgzMDJFRUZCRjQzMDhGNkY4QjY3ODZGMDQwRjk1MTQ1NEU3RTVFQjFGMDNEMjVCNjQ3RjY3MTZCMDA5MTNEMTAwREVFNEY0NTE5ODMyM0UxNkE1MDY4QjBBMzQ5RkM3MDk1NjRGNjcwMTkzN0RDNjg0RUZGMTM5N0Y3RTE4RDgxRDU0MUE5NzkwRjJDOENFNDI5MDVDMEQxNThBRTRFRjM4NDFFRTZFRTYxQTA1MUNBMUU4M0ZCNjM0RTE4MkQwQ0NBRTAzMjM4RjJGRjk0RDlFQUI1MjY4Qjk4QTY5RTMyODc1NTZGNTQ0RjgxNDJEQkU=; ticket=108470D6B7A4BF9521305B1B9AA3326B70D10DB8666733CD89AC42254154F48DF6DA93518B63B47899127A868E592D8C113D96E9A38AEF38F03200505CC6E597B634E3073ABDB1CD177FB26E7ADA7C51AAB88F5CB5A040D11DD3CC7F86B6B4C9DF973B912ECA513DE67BD36F0C20716876D8CF7CB38E9B59AD7794161EA14E93; test_dmall_vender=1; venderId=1; dmall-locale=zh_CN; dmall-zone=null; _ga=GA1.2.1893359528.1599888490; _gid=GA1.2.1296573176.1599888490; experimentation_subject_id=IjY1NDZiMDliLTYyOGEtNDg0Yi04ZDk0LTc1NjgwNzQxYzYzNyI%3D--2c6df6240c61d205ab5a7e4de25e55c4b4b1b413; data_seq=1; first_session_time=1588734136893; web_session_count=1; session_id=C8E509CA3BB0000222D030501A3B111C; tempid=C8E509CA3BA000024EDCF0291417EA90, Content-Type=application/json}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@6d78f375]" name="test2" duration-ms="104" started-at="2020-09-13T00:42:03Z" data-provider="caseData" finished-at="2020-09-13T00:42:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{siteId=4212, _=1599908741701}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Cookie=test_token_: SEg6bW0jIzE3Mi4yOC4yNDAuMTE2IyNISDptbSMjNGRmZTQjIzlFNTQ3MjMzRjQ4OUMxQjgzMDJFRUZCRjQzMDhGNkY4QjY3ODZGMDQwRjk1MTQ1NEU3RTVFQjFGMDNEMjVCNjQ3RjY3MTZCMDA5MTNEMTAwREVFNEY0NTE5ODMyM0UxNkE1MDY4QjBBMzQ5RkM3MDk1NjRGNjcwMTkzN0RDNjg0RUZGMTM5N0Y3RTE4RDgxRDU0MUE5NzkwRjJDOENFNDI5MDVDMEQxNThBRTRFRjM4NDFFRTZFRTYxQTA1MUNBMUU4M0ZCNjM0RTE4MkQwQ0NBRTAzMjM4RjJGRjk0RDlFQUI1MjY4Qjk4QTY5RTMyODc1NTZGNTQ0RjgxNDJEQkU=; ticket=108470D6B7A4BF9521305B1B9AA3326B70D10DB8666733CD89AC42254154F48DF6DA93518B63B47899127A868E592D8C113D96E9A38AEF38F03200505CC6E597B634E3073ABDB1CD177FB26E7ADA7C51AAB88F5CB5A040D11DD3CC7F86B6B4C9DF973B912ECA513DE67BD36F0C20716876D8CF7CB38E9B59AD7794161EA14E93; test_dmall_vender=1; venderId=1; dmall-locale=zh_CN; dmall-zone=null; _ga=GA1.2.1893359528.1599888490; _gid=GA1.2.1296573176.1599888490; experimentation_subject_id=IjY1NDZiMDliLTYyOGEtNDg0Yi04ZDk0LTc1NjgwNzQxYzYzNyI%3D--2c6df6240c61d205ab5a7e4de25e55c4b4b1b413; data_seq=1; first_session_time=1588734136893; web_session_count=1; session_id=C8E509CA3BB0000222D030501A3B111C; tempid=C8E509CA3BA000024EDCF0291417EA90, Content-Type=application/json}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.dmall.autotest.testscene.TestSchedulingByCase -->
+    </test> <!-- TestPlan1 -->
+    <test name="TestPlan2" duration-ms="139" started-at="2020-09-12T16:42:08Z" finished-at="2020-09-12T16:42:08Z">
+      <class name="com.dmall.autotest.testscene.TestSchedulingByCase">
+        <test-method status="PASS" signature="test2(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@29ee9faa]" name="test2" duration-ms="58" started-at="2020-09-13T00:42:08Z" data-provider="caseData" finished-at="2020-09-13T00:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{siteId=4212, _=1599908741701}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Cookie=test_token_: SEg6bW0jIzE3Mi4yOC4yNDAuMTE2IyNISDptbSMjNGRmZTQjIzlFNTQ3MjMzRjQ4OUMxQjgzMDJFRUZCRjQzMDhGNkY4QjY3ODZGMDQwRjk1MTQ1NEU3RTVFQjFGMDNEMjVCNjQ3RjY3MTZCMDA5MTNEMTAwREVFNEY0NTE5ODMyM0UxNkE1MDY4QjBBMzQ5RkM3MDk1NjRGNjcwMTkzN0RDNjg0RUZGMTM5N0Y3RTE4RDgxRDU0MUE5NzkwRjJDOENFNDI5MDVDMEQxNThBRTRFRjM4NDFFRTZFRTYxQTA1MUNBMUU4M0ZCNjM0RTE4MkQwQ0NBRTAzMjM4RjJGRjk0RDlFQUI1MjY4Qjk4QTY5RTMyODc1NTZGNTQ0RjgxNDJEQkU=; ticket=108470D6B7A4BF9521305B1B9AA3326B70D10DB8666733CD89AC42254154F48DF6DA93518B63B47899127A868E592D8C113D96E9A38AEF38F03200505CC6E597B634E3073ABDB1CD177FB26E7ADA7C51AAB88F5CB5A040D11DD3CC7F86B6B4C9DF973B912ECA513DE67BD36F0C20716876D8CF7CB38E9B59AD7794161EA14E93; test_dmall_vender=1; venderId=1; dmall-locale=zh_CN; dmall-zone=null; _ga=GA1.2.1893359528.1599888490; _gid=GA1.2.1296573176.1599888490; experimentation_subject_id=IjY1NDZiMDliLTYyOGEtNDg0Yi04ZDk0LTc1NjgwNzQxYzYzNyI%3D--2c6df6240c61d205ab5a7e4de25e55c4b4b1b413; data_seq=1; first_session_time=1588734136893; web_session_count=1; session_id=C8E509CA3BB0000222D030501A3B111C; tempid=C8E509CA3BA000024EDCF0291417EA90, Content-Type=application/json}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@29ee9faa]" name="test3" duration-ms="71" started-at="2020-09-13T00:42:08Z" data-provider="caseData" finished-at="2020-09-13T00:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{siteId=4212, _=1599908741701}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Cookie=test_token_: SEg6bW0jIzE3Mi4yOC4yNDAuMTE2IyNISDptbSMjNGRmZTQjIzlFNTQ3MjMzRjQ4OUMxQjgzMDJFRUZCRjQzMDhGNkY4QjY3ODZGMDQwRjk1MTQ1NEU3RTVFQjFGMDNEMjVCNjQ3RjY3MTZCMDA5MTNEMTAwREVFNEY0NTE5ODMyM0UxNkE1MDY4QjBBMzQ5RkM3MDk1NjRGNjcwMTkzN0RDNjg0RUZGMTM5N0Y3RTE4RDgxRDU0MUE5NzkwRjJDOENFNDI5MDVDMEQxNThBRTRFRjM4NDFFRTZFRTYxQTA1MUNBMUU4M0ZCNjM0RTE4MkQwQ0NBRTAzMjM4RjJGRjk0RDlFQUI1MjY4Qjk4QTY5RTMyODc1NTZGNTQ0RjgxNDJEQkU=; ticket=108470D6B7A4BF9521305B1B9AA3326B70D10DB8666733CD89AC42254154F48DF6DA93518B63B47899127A868E592D8C113D96E9A38AEF38F03200505CC6E597B634E3073ABDB1CD177FB26E7ADA7C51AAB88F5CB5A040D11DD3CC7F86B6B4C9DF973B912ECA513DE67BD36F0C20716876D8CF7CB38E9B59AD7794161EA14E93; test_dmall_vender=1; venderId=1; dmall-locale=zh_CN; dmall-zone=null; _ga=GA1.2.1893359528.1599888490; _gid=GA1.2.1296573176.1599888490; experimentation_subject_id=IjY1NDZiMDliLTYyOGEtNDg0Yi04ZDk0LTc1NjgwNzQxYzYzNyI%3D--2c6df6240c61d205ab5a7e4de25e55c4b4b1b413; data_seq=1; first_session_time=1588734136893; web_session_count=1; session_id=C8E509CA3BB0000222D030501A3B111C; tempid=C8E509CA3BA000024EDCF0291417EA90, Content-Type=application/json}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.dmall.autotest.testscene.TestSchedulingByCase -->
+    </test> <!-- TestPlan2 -->
+    <test name="TestPlan12" duration-ms="315" started-at="2020-09-12T16:42:14Z" finished-at="2020-09-12T16:42:14Z">
+      <class name="com.dmall.autotest.testscene.TestSchedulingByCase">
+        <test-method status="PASS" signature="test1(com.dmall.autotest.component.scheduling.SchedulingRequest, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@4b9e13df]" name="test1" duration-ms="81" started-at="2020-09-13T00:42:14Z" data-provider="caseData" finished-at="2020-09-13T00:42:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.dmall.autotest.component.scheduling.SchedulingRequest@1bb5a082]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Cookie=test_token_: SEg6bW0jIzE3Mi4yOC4yNDAuMTE2IyNISDptbSMjNGRmZTQjIzlFNTQ3MjMzRjQ4OUMxQjgzMDJFRUZCRjQzMDhGNkY4QjY3ODZGMDQwRjk1MTQ1NEU3RTVFQjFGMDNEMjVCNjQ3RjY3MTZCMDA5MTNEMTAwREVFNEY0NTE5ODMyM0UxNkE1MDY4QjBBMzQ5RkM3MDk1NjRGNjcwMTkzN0RDNjg0RUZGMTM5N0Y3RTE4RDgxRDU0MUE5NzkwRjJDOENFNDI5MDVDMEQxNThBRTRFRjM4NDFFRTZFRTYxQTA1MUNBMUU4M0ZCNjM0RTE4MkQwQ0NBRTAzMjM4RjJGRjk0RDlFQUI1MjY4Qjk4QTY5RTMyODc1NTZGNTQ0RjgxNDJEQkU=; ticket=108470D6B7A4BF9521305B1B9AA3326B70D10DB8666733CD89AC42254154F48DF6DA93518B63B47899127A868E592D8C113D96E9A38AEF38F03200505CC6E597B634E3073ABDB1CD177FB26E7ADA7C51AAB88F5CB5A040D11DD3CC7F86B6B4C9DF973B912ECA513DE67BD36F0C20716876D8CF7CB38E9B59AD7794161EA14E93; test_dmall_vender=1; venderId=1; dmall-locale=zh_CN; dmall-zone=null; _ga=GA1.2.1893359528.1599888490; _gid=GA1.2.1296573176.1599888490; experimentation_subject_id=IjY1NDZiMDliLTYyOGEtNDg0Yi04ZDk0LTc1NjgwNzQxYzYzNyI%3D--2c6df6240c61d205ab5a7e4de25e55c4b4b1b413; data_seq=1; first_session_time=1588734136893; web_session_count=1; session_id=C8E509CA3BB0000222D030501A3B111C; tempid=C8E509CA3BA000024EDCF0291417EA90, Content-Type=application/json}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@4b9e13df]" name="test2" duration-ms="93" started-at="2020-09-13T00:42:14Z" data-provider="caseData" finished-at="2020-09-13T00:42:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{siteId=4212, _=1599908741701}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Cookie=test_token_: SEg6bW0jIzE3Mi4yOC4yNDAuMTE2IyNISDptbSMjNGRmZTQjIzlFNTQ3MjMzRjQ4OUMxQjgzMDJFRUZCRjQzMDhGNkY4QjY3ODZGMDQwRjk1MTQ1NEU3RTVFQjFGMDNEMjVCNjQ3RjY3MTZCMDA5MTNEMTAwREVFNEY0NTE5ODMyM0UxNkE1MDY4QjBBMzQ5RkM3MDk1NjRGNjcwMTkzN0RDNjg0RUZGMTM5N0Y3RTE4RDgxRDU0MUE5NzkwRjJDOENFNDI5MDVDMEQxNThBRTRFRjM4NDFFRTZFRTYxQTA1MUNBMUU4M0ZCNjM0RTE4MkQwQ0NBRTAzMjM4RjJGRjk0RDlFQUI1MjY4Qjk4QTY5RTMyODc1NTZGNTQ0RjgxNDJEQkU=; ticket=108470D6B7A4BF9521305B1B9AA3326B70D10DB8666733CD89AC42254154F48DF6DA93518B63B47899127A868E592D8C113D96E9A38AEF38F03200505CC6E597B634E3073ABDB1CD177FB26E7ADA7C51AAB88F5CB5A040D11DD3CC7F86B6B4C9DF973B912ECA513DE67BD36F0C20716876D8CF7CB38E9B59AD7794161EA14E93; test_dmall_vender=1; venderId=1; dmall-locale=zh_CN; dmall-zone=null; _ga=GA1.2.1893359528.1599888490; _gid=GA1.2.1296573176.1599888490; experimentation_subject_id=IjY1NDZiMDliLTYyOGEtNDg0Yi04ZDk0LTc1NjgwNzQxYzYzNyI%3D--2c6df6240c61d205ab5a7e4de25e55c4b4b1b413; data_seq=1; first_session_time=1588734136893; web_session_count=1; session_id=C8E509CA3BB0000222D030501A3B111C; tempid=C8E509CA3BA000024EDCF0291417EA90, Content-Type=application/json}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3(java.util.Map, java.util.Map)[pri:0, instance:com.dmall.autotest.testscene.TestSchedulingByCase@4b9e13df]" name="test3" duration-ms="123" started-at="2020-09-13T00:42:14Z" data-provider="caseData" finished-at="2020-09-13T00:42:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{siteId=4212, _=1599908741701}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Cookie=test_token_: SEg6bW0jIzE3Mi4yOC4yNDAuMTE2IyNISDptbSMjNGRmZTQjIzlFNTQ3MjMzRjQ4OUMxQjgzMDJFRUZCRjQzMDhGNkY4QjY3ODZGMDQwRjk1MTQ1NEU3RTVFQjFGMDNEMjVCNjQ3RjY3MTZCMDA5MTNEMTAwREVFNEY0NTE5ODMyM0UxNkE1MDY4QjBBMzQ5RkM3MDk1NjRGNjcwMTkzN0RDNjg0RUZGMTM5N0Y3RTE4RDgxRDU0MUE5NzkwRjJDOENFNDI5MDVDMEQxNThBRTRFRjM4NDFFRTZFRTYxQTA1MUNBMUU4M0ZCNjM0RTE4MkQwQ0NBRTAzMjM4RjJGRjk0RDlFQUI1MjY4Qjk4QTY5RTMyODc1NTZGNTQ0RjgxNDJEQkU=; ticket=108470D6B7A4BF9521305B1B9AA3326B70D10DB8666733CD89AC42254154F48DF6DA93518B63B47899127A868E592D8C113D96E9A38AEF38F03200505CC6E597B634E3073ABDB1CD177FB26E7ADA7C51AAB88F5CB5A040D11DD3CC7F86B6B4C9DF973B912ECA513DE67BD36F0C20716876D8CF7CB38E9B59AD7794161EA14E93; test_dmall_vender=1; venderId=1; dmall-locale=zh_CN; dmall-zone=null; _ga=GA1.2.1893359528.1599888490; _gid=GA1.2.1296573176.1599888490; experimentation_subject_id=IjY1NDZiMDliLTYyOGEtNDg0Yi04ZDk0LTc1NjgwNzQxYzYzNyI%3D--2c6df6240c61d205ab5a7e4de25e55c4b4b1b413; data_seq=1; first_session_time=1588734136893; web_session_count=1; session_id=C8E509CA3BB0000222D030501A3B111C; tempid=C8E509CA3BA000024EDCF0291417EA90, Content-Type=application/json}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.dmall.autotest.testscene.TestSchedulingByCase -->
+    </test> <!-- TestPlan12 -->
+  </suite> <!-- Suite -->
+</testng-results>

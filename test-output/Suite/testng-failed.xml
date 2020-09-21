@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="TestPlan1(failed)">
+    <groups>
+      <run>
+        <include name="TestA"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.dmall.autotest.testscene.TestSchedulingByCase">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.dmall.autotest.testscene.TestSchedulingByCase -->
+    </classes>
+  </test> <!-- TestPlan1(failed) -->
+  <test name="TestPlan2(failed)">
+    <groups>
+      <run>
+        <include name="TestB"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.dmall.autotest.testscene.TestSchedulingByCase">
+        <methods>
+          <include name="test3"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.dmall.autotest.testscene.TestSchedulingByCase -->
+    </classes>
+  </test> <!-- TestPlan2(failed) -->
+  <test name="TestPlan12(failed)">
+    <groups>
+      <run>
+        <include name="TestB"/>
+        <include name="TestA"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.dmall.autotest.testscene.TestSchedulingByCase">
+        <methods>
+          <include name="test3"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.dmall.autotest.testscene.TestSchedulingByCase -->
+    </classes>
+  </test> <!-- TestPlan12(failed) -->
+</suite> <!-- Failed suite [Suite] -->

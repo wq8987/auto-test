@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>TestNG:  Test2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Sep 12 22:15:45 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (431 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>TestB </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dmall.autotest.testscene.TestScheduling.test0()'><b>test0</b><br>Test class: com.dmall.autotest.testscene.TestScheduling<br>Parameters: {siteId=4212, _=1599908741701}, {Cookie=test_token_: SEg6bW0jIzE3Mi4yOC4yNDAuMTE2IyNISDptbSMjNGRmZTQjIzlFNTQ3MjMzRjQ4OUMxQjgzMDJFRUZCRjQzMDhGNkY4QjY3ODZGMDQwRjk1MTQ1NEU3RTVFQjFGMDNEMjVCNjQ3RjY3MTZCMDA5MTNEMTAwREVFNEY0NTE5ODMyM0UxNkE1MDY4QjBBMzQ5RkM3MDk1NjRGNjcwMTkzN0RDNjg0RUZGMTM5N0Y3RTE4RDgxRDU0MUE5NzkwRjJDOENFNDI5MDVDMEQxNThBRTRFRjM4NDFFRTZFRTYxQTA1MUNBMUU4M0ZCNjM0RTE4MkQwQ0NBRTAzMjM4RjJGRjk0RDlFQUI1MjY4Qjk4QTY5RTMyODc1NTZGNTQ0RjgxNDJEQkU=; ticket=108470D6B7A4BF9521305B1B9AA3326B70D10DB8666733CD89AC42254154F48DF6DA93518B63B47899127A868E592D8C113D96E9A38AEF38F03200505CC6E597B634E3073ABDB1CD177FB26E7ADA7C51AAB88F5CB5A040D11DD3CC7F86B6B4C9DF973B912ECA513DE67BD36F0C20716876D8CF7CB38E9B59AD7794161EA14E93; test_dmall_vender=1; venderId=1; dmall-locale=zh_CN; dmall-zone=null; _ga=GA1.2.1893359528.1599888490; _gid=GA1.2.1296573176.1599888490; experimentation_subject_id=IjY1NDZiMDliLTYyOGEtNDg0Yi04ZDk0LTc1NjgwNzQxYzYzNyI%3D--2c6df6240c61d205ab5a7e4de25e55c4b4b1b413; data_seq=1; first_session_time=1588734136893; web_session_count=1; session_id=C8E509CA3BB0000222D030501A3B111C; tempid=C8E509CA3BA000024EDCF0291417EA90, Content-Type=application/json}</td>
+<td></td>
+<td>0</td>
+<td>com.dmall.autotest.testscene.TestScheduling@c038203</td></tr>
+<tr>
+<td title='com.dmall.autotest.testscene.TestScheduling.test2()'><b>test2</b><br>Test class: com.dmall.autotest.testscene.TestScheduling<br>Parameters: {siteId=4212, _=1599908741701}, {Cookie=test_token_: SEg6bW0jIzE3Mi4yOC4yNDAuMTE2IyNISDptbSMjNGRmZTQjIzlFNTQ3MjMzRjQ4OUMxQjgzMDJFRUZCRjQzMDhGNkY4QjY3ODZGMDQwRjk1MTQ1NEU3RTVFQjFGMDNEMjVCNjQ3RjY3MTZCMDA5MTNEMTAwREVFNEY0NTE5ODMyM0UxNkE1MDY4QjBBMzQ5RkM3MDk1NjRGNjcwMTkzN0RDNjg0RUZGMTM5N0Y3RTE4RDgxRDU0MUE5NzkwRjJDOENFNDI5MDVDMEQxNThBRTRFRjM4NDFFRTZFRTYxQTA1MUNBMUU4M0ZCNjM0RTE4MkQwQ0NBRTAzMjM4RjJGRjk0RDlFQUI1MjY4Qjk4QTY5RTMyODc1NTZGNTQ0RjgxNDJEQkU=; ticket=108470D6B7A4BF9521305B1B9AA3326B70D10DB8666733CD89AC42254154F48DF6DA93518B63B47899127A868E592D8C113D96E9A38AEF38F03200505CC6E597B634E3073ABDB1CD177FB26E7ADA7C51AAB88F5CB5A040D11DD3CC7F86B6B4C9DF973B912ECA513DE67BD36F0C20716876D8CF7CB38E9B59AD7794161EA14E93; test_dmall_vender=1; venderId=1; dmall-locale=zh_CN; dmall-zone=null; _ga=GA1.2.1893359528.1599888490; _gid=GA1.2.1296573176.1599888490; experimentation_subject_id=IjY1NDZiMDliLTYyOGEtNDg0Yi04ZDk0LTc1NjgwNzQxYzYzNyI%3D--2c6df6240c61d205ab5a7e4de25e55c4b4b1b413; data_seq=1; first_session_time=1588734136893; web_session_count=1; session_id=C8E509CA3BB0000222D030501A3B111C; tempid=C8E509CA3BA000024EDCF0291417EA90, Content-Type=application/json}</td>
+<td></td>
+<td>0</td>
+<td>com.dmall.autotest.testscene.TestScheduling@c038203</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="com.dmall.autotest.testscene.TestScheduling">
+        <methods>
+          <include name="test2" invocation-numbers="0"/>
+          <include name="test0" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.dmall.autotest.testscene.TestScheduling -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

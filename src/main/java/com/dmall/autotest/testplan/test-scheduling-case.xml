@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="TestPlan1">
+  	<groups>
+  		<run>
+  			<include name="TestA"/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestPlan2">
+  <groups>
+  		<run>
+  			<include name="TestB"/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestPlan12">
+  <groups>
+  		<run>
+  			<include name="TestA"/>
+  			<include name="TestB"/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="com.dmall.autotest.testscene.TestSchedulingByCase"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
